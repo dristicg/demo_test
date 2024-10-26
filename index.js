@@ -11,6 +11,23 @@ const PORT = 8000;
 
 // app.listen(PORT, () => console.log(`Server Started at PORT:${PORT}`))
 
+//Routes
+
+// app.get("/users", (req, res) => {
+//     return res.json(users);
+// });
+
+// app.listen(PORT, () => console.log(`Server Started at PORT:${PORT}`))
+
+
+//Routes
+
+// app.get("/users", (req, res) => {
+//     return res.json(users);
+// });
+
+// app.listen(PORT, () => console.log(`Server Started at PORT:${PORT}`))
+
 
 app.get("/courses", (req, res) => {
     res.json(courses);
