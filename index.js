@@ -5,28 +5,28 @@ const PORT = 8000;
 
 //Routes
 
-// app.get("/users", (req, res) => {
-//     return res.json(users);
-// });
+app.get("/users", (req, res) => {
+    return res.json(users);
+});
 
-// app.listen(PORT, () => console.log(`Server Started at PORT:${PORT}`))
-
-//Routes
-
-// app.get("/users", (req, res) => {
-//     return res.json(users);
-// });
-
-// app.listen(PORT, () => console.log(`Server Started at PORT:${PORT}`))
-
+app.listen(PORT, () => console.log(`Server Started at PORT:${PORT}`))
 
 //Routes
 
-// app.get("/users", (req, res) => {
-//     return res.json(users);
-// });
+app.get("/users", (req, res) => {
+    return res.json(users);
+});
 
-// app.listen(PORT, () => console.log(`Server Started at PORT:${PORT}`))
+app.listen(PORT, () => console.log(`Server Started at PORT:${PORT}`))
+
+
+//Routes
+
+app.get("/users", (req, res) => {
+    return res.json(users);
+});
+
+app.listen(PORT, () => console.log(`Server Started at PORT:${PORT}`))
 
 
 app.get("/courses", (req, res) => {
@@ -43,4 +43,4 @@ app.get("/courses", (req, res) => {
       res.status(404).send("Course not found");
     }
   });
-  
+//This is an API
