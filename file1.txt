@@ -1,0 +1,10 @@
+hello git
+
+through git rebase --abort hame reabse remove kiya...
+
+then mkdir se folger create kiya named myproject
+cd se inder gaye
+git init
+echo se file1.txt create kiya hai comment kiya hello git
+git add file1.txt
+git commit
